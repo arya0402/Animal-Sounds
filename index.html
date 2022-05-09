@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header_div col-xl-12 text-center">
+        <h2>Animal Recognition</h2>
+        <p>Note: play different sounds like whistles, roaring, neighing, and backgroung noise 
+        </p>
+    </div>
+    <div class="main_div">
+        <center>
+          <br>
+          <br>
+          <button class="btn btn-warning" onclick="startClassification()">START</button>
+          <h3 id="sound">Number of Times Animal Sound Detected: </h3>
+          <h4 id="name_animal_sound">Name of the Animal Sound </h4>
+          <br>
+          <br>
+          <img id="ear" src="ear.png" width="300" height="300">
+        </center>
+        <div class="footer">
+            Created By - Arya Patel
+          </div>
+</body>
+
+</html>
