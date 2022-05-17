@@ -1,0 +1,36 @@
+body{
+    background: rgb(0, 255, 242);
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    color: rgb(102, 97, 97);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background: white;
+    line-height: 3;
+    text-shadow: 5px 5px 5px gray;
+    font-size: 20px;
+    font-family: 'Passions Conflict', cursive;
+}
+
+.main_div button {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.header_div p {
+    font-size: 20px;    
+}
+
+.header_div {
+    background: white; 
+    font-family: 'Dancing Script', cursive;
+}
+
+.main_div {
+    font-family: 'Dancing Script', cursive;
+}
+
+
