@@ -3,6 +3,7 @@ body{
 }
 
 .footer {
+    margin-top: 10px;
     text-align: center;
     position: fixed;
     color: rgb(102, 97, 97);

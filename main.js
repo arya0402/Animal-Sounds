@@ -9,7 +9,7 @@ function modelLoaded() {
 var lion = 0;
 var dolphin = 0;
 var horse = 0;
-var background noise = 0;
+var background_noise = 0;
 
 function gotResults(error, results) {
     if (error) {
