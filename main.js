@@ -21,7 +21,7 @@ function gotResults(error, results) {
         random_g = Math.floor(Math.random() * 255) + 1;
         random_b = Math.floor(Math.random() * 255) + 1;
         document.getElementById("name_animal_sound").innerHTML = "Name of the Animal Sound:" + results[0].label;
-        document.getElementById("sound").innerHTML = "Number of Times Animal Sound Detected: "(results[0].confidence * 100).toFixed(2) + " %";
+        document.getElementById("sound").innerHTML = "Number of Times Animal Sound Detected: " + (results[0].confidence * 100).toFixed(2) + " %";
         document.getElementById("sound").style.color = "rgb(" + random_r + "," + random_g + "," + random_b + ")";
     }
 
