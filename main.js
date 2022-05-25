@@ -37,7 +37,7 @@ function gotResults(error, results) {
         img.src = "horse.jpeg";
     }
     else {
-        img.src = "Background Noise.jpeg";
+        img.src = "backgroundNoise.jpeg";
     }
 
 
