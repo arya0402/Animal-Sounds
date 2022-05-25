@@ -30,14 +30,14 @@ function gotResults(error, results) {
     if (results[0].label == "Roaring") {
         img.src = "lion.jpeg";
     }
-    else if (results[0].label == "Whistles") {
+    else if (results[0].label == "whistles") {
         img.src = "dolphin.jpeg";
     }
-    else if (results[0].label == "Neighing") {
+    else if (results[0].label == "neighing") {
         img.src = "horse.jpeg";
     }
     else {
-        img.src = "background noise.jpeg";
+        img.src = "Background Noise.jpeg";
     }
 
 
